@@ -1,0 +1,244 @@
+*{
+    color:#C4C4C4;
+    background-color: #1F1F1F;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    padding: 20px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+.left{
+    color: white;
+    width:200px;
+    text-decoration: double;
+    font-size: 60px;
+}
+.center input{
+    padding: 20px;
+    padding-left: 30px;
+    background-color: #262626;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    width: 500px;
+}
+.right{
+    width: 600px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.right button a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color: #262626;
+    text-decoration: none;
+}
+.right button{
+    /* width: 130px; */
+    padding: 15px;
+    background-color: #262626;
+    border: 1px solid #262626;
+    border-radius:10px;
+}
+
+
+
+/* about us section starts here */
+
+
+.aboutus{
+    height: 550px;
+    padding: 50px 0px;
+    border-radius: 20px;
+    background-color: #262626;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content:space-between;
+
+
+}
+.rightus{
+    display: flex;
+    flex-flow: column wrap;
+    
+    background-color: #262626;
+ 
+    
+
+}
+.rightus div{
+    display: flex;
+    align-items: center;
+    background-color: #262626;
+    
+}
+.rightus div img{
+    background-color: #262626;
+    padding: 30px;
+    width: 100px;
+
+}
+.rightus div span{
+    background-color: #262626;
+    font-size: 30px;
+}
+.leftus{
+    background-color: #262626;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+   
+}
+.leftus img{
+    background-color: #262626;
+    /* width: 290px; */
+    padding: 30px;
+}
+.leftus button a{
+    font-weight: bold;
+
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #FECB03;
+    color: black;
+}
+.leftus button{
+    
+    align-self: center;
+    height: 80px;
+    width: 200px;
+    padding: 15px;
+    background-color: #FECB03;
+    border-radius: 50px;
+    border: 1px solid #FECB03;
+    
+
+}
+
+
+/* our categories section starts here */
+
+.cato{
+    /* background-color: red; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding:30px;
+    gap: 50px;
+    
+    
+}
+.cato .card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border: 5px solid #262626;
+    border-radius: 15px;
+    width: 345px;
+    padding: 25px;
+    height: 360px;
+    
+}
+.cato .cards div p{
+    font-size: 15px;
+    padding: 20px 0px;
+    font-weight:100;
+    line-height: 22px;
+}
+.cato button a{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #FECB03;
+    color: black;
+}
+.cato button{
+    width: 150px;
+    align-self: flex-end;
+    background-color: #FECB03;
+    border: 1px solid#FECB03;
+    border-radius: 30px;
+    padding: 20px;
+}
+.card h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.our{
+    font-size: 25px;
+    padding: 60px;
+}
+
+
+/* footer section starts here */
+footer{
+    padding-top: 50px;
+}
+
+
+.footer{
+    border-radius: 20px;
+    border: 5px solid #262626;
+    background-color: #262626;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:start;
+    padding: 30px;
+    padding-top: 50px;
+    
+
+}
+.footer div p{
+    font-weight:100;
+    width: 500px;
+    background-color: #262626;
+}
+.a h1{
+    font-size: 50px;
+
+}
+ .footer div h1{
+    padding-bottom: 15px;
+    background-color: #262626;
+}
+
+ul{
+    list-style: none;
+    background-color: #262626;
+}
+
+ul li{
+    font-weight:500 ;
+    padding: 5px;
+    background-color: #262626;
+}
+.footer div{
+    font-size: 20px;
+    background-color: #262626;
+    width: 250px;
+}
+ul li a{
+    background-color: #262626;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
